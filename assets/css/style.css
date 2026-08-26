@@ -1,0 +1,32 @@
+body {
+    background-color: #050404;
+}
+.texto{
+    font-size: 20px;
+    color: #ff0000;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    color: #920202;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    color: #ffffff;
+
+}
+p{
+    font-size: 20px;
+    color: #f8f5f5;
+    text-align: center;
+}
+button {
+    background-color: #920202;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    align-items: center;
+}
