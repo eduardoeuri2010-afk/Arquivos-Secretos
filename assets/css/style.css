@@ -1,32 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
-    background-color: #050404;
+    font-family: Arial, helvetica, sans-serif;
+    background-color: #981e32;
+    color: #131313;
+    line-height: 1.6;
 }
-.texto{
-    font-size: 20px;
-    color: #ff0000;
-    text-align: center;
-}
-h1{
-    font-size: 50px;
-    color: #920202;
-    text-align: center;
-}
-h2{
-    font-size: 30px;
-    color: #ffffff;
-
-}
-p{
-    font-size: 20px;
-    color: #f8f5f5;
-    text-align: center;
-}
-button {
-    background-color: #920202;
-    color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
+header {
+    background-color: #981e32;
+    color: #fff;
+    padding: 15px 8%; /* Junta o padding superior/inferior com o lateral */
+    display: flex; /* Permite alinhar a logo e o menu lado a lado */
     align-items: center;
-} 
+    justify-content: space-between;
+    border-bottom: 2px solid #000000;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.nomedaclasse {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    border-color: #ffb765;
+}
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #000000;
+    text-align: center;
+}
+h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #000000;
+    text-align: center;
+}
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #000000;
+    text-align: center;
+}
+h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #000000;
+    text-align: center;
+}
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #111111;
+    text-align: center;
+    
+}
+.card {
+    background-color: #f9f9f8;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    border-color: #ffb765;
+    text-align: center;
+}
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #f9f9f8;
+}
+span {
+    color: #295294;
+}
+main {
+    padding-top: 40px; /* Aumente esse valor se ainda ficar coberto */
+}
+html {
+    scroll-padding-top: 180px; /* Compensa a altura exata do header */
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 20px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+li {
+    margin-bottom: 10px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #bebe59;
+    transition: color 0.3s ease;
+    text-align: center;
+}
+.video-container {
+    margin-top: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
