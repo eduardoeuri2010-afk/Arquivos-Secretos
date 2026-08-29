@@ -114,3 +114,73 @@ a {
     margin-left: auto;
     margin-right: auto;
 }
+.noticias-destaque {
+    background-color: #f9f9f8;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    border-color: #ffb765;
+    text-align: center;
+}
+/* Estilo do Botão Principal */
+.btn-destaque {
+    display: inline-block;
+    background-color: #981e32;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.btn-destaque:hover {
+    background-color: #ffb765;
+    color: #000;
+}
+
+/* Estilo da Citação */
+.citacao {
+    border-left: 5px solid #ffb765;
+    font-style: italic;
+}
+
+.citacao span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #981e32;
+}
+
+/* Grid de Atalhos */
+.grid-categorias {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.card-categoria {
+    background-color: #f9f9f8;
+    border: 1px solid #ffb765;
+    border-radius: 15px;
+    padding: 20px;
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+}
+
+.card-categoria a {
+    color: #981e32;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.card-categoria a:hover {
+    text-decoration: underline;
+}
